@@ -1,0 +1,427 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Unity\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Unity/Projects/Restaurant
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62174
+Successfully changed project path to: C:/Unity/Projects/Restaurant
+C:/Unity/Projects/Restaurant
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22468] Host "[IP] 192.168.88.1 [Port] 0 [Flags] 2 [Guid] 2967491039 [EditorId] 2967491039 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-UBFHFKGD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22468] Host "[IP] 192.168.88.1 [Port] 0 [Flags] 2 [Guid] 2967491039 [EditorId] 2967491039 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-UBFHFKGD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 181.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Unity/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/Projects/Restaurant/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2799
+Initialize mono
+Mono path[0] = 'C:/Unity/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.298953 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 286 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 61.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5860ms)
+		BeginReloadAssembly (3823ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1422ms)
+			LoadAssemblies (3832ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (807ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (535ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (356ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 1.073098 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity\Projects\Restaurant\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity\Projects\Restaurant\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.823 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3824ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (3578ms)
+			LoadAssemblies (2434ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (745ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.3 KB). Loaded Objects now: 3521.
+Memory consumption went from 109.7 MB to 109.6 MB.
+Total: 2.730600 ms (FindLiveObjects: 0.210800 ms CreateObjectMapping: 0.092600 ms MarkObjects: 2.316300 ms  DeleteObjects: 0.109800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 679798.379617 seconds.
+  path: Assets/MedievalTavernPack/Prefabs/Furniture/Cupboard_01.prefab
+  artifactKey: Guid(e75728ac3852d5d4ca79f53ba07b145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Prefabs/Furniture/Cupboard_01.prefab using Guid(e75728ac3852d5d4ca79f53ba07b145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626d649addc8fc8aa475a265bd2e97f1') in 0.177213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.993843 seconds.
+  path: Assets/MedievalTavernPack/Prefabs/Architecture/Fireplace_01_stone.prefab
+  artifactKey: Guid(eb922f2a530310b46ab2d572269f0f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Prefabs/Architecture/Fireplace_01_stone.prefab using Guid(eb922f2a530310b46ab2d572269f0f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1923e12a8bd6489a3a75a971fa39ce2') in 0.084236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.070219 seconds.
+  path: Assets/MedievalTavernPack/Prefabs/Tableware/Glass_01.prefab
+  artifactKey: Guid(639d8009f73c0c0479e83997d1fc2ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Prefabs/Tableware/Glass_01.prefab using Guid(639d8009f73c0c0479e83997d1fc2ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33fc0e45097907943b91c7a27c40dd9') in 0.165540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.670470 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Architecture
+  artifactKey: Guid(3fa898eac0600c24b8f3468bcff8d97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Architecture using Guid(3fa898eac0600c24b8f3468bcff8d97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00251c397f86fc7906c72f162c8e2018') in 0.007768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.224423 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Architecture/Fireplace_01.FBX
+  artifactKey: Guid(eca2fcac997383d46a335444395759a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Architecture/Fireplace_01.FBX using Guid(eca2fcac997383d46a335444395759a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a9b0ca6d9ace756073648c32bb0580') in 0.162371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.149570 seconds.
+  path: Assets/Materials/bricks 1.mat
+  artifactKey: Guid(ca04ba62504b32a48b263521d66c9845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/bricks 1.mat using Guid(ca04ba62504b32a48b263521d66c9845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894a278cded0f82b6b1990ca0c510377') in 0.196383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/Grass Material.mat
+  artifactKey: Guid(9b9071b218a51a84ba41d2ac14531b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass Material.mat using Guid(9b9071b218a51a84ba41d2ac14531b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551cf4258ac4f5186614c9489504aba7') in 0.022296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/wood.mat
+  artifactKey: Guid(742be5a02f57e2f44a2518a17aaad039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wood.mat using Guid(742be5a02f57e2f44a2518a17aaad039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9c5417f6e492c769026d9f38502f45') in 0.121607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/door.mat
+  artifactKey: Guid(a99eedda7b8dc314c8b33e1948bf6e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/door.mat using Guid(a99eedda7b8dc314c8b33e1948bf6e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75fd160da950838fbb49887608c0f39') in 0.021960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/wood 2.mat
+  artifactKey: Guid(ad76b6371e73bae4bafc5c60520744a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wood 2.mat using Guid(ad76b6371e73bae4bafc5c60520744a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc6892e87aed923e879757763d5f751') in 0.031761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/medieval-stone- 1.mat
+  artifactKey: Guid(cd617fc3bfe140f4b9e44ae797beb3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/medieval-stone- 1.mat using Guid(cd617fc3bfe140f4b9e44ae797beb3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db32d0644736cb481c4f64206e76fcd8') in 0.148849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.186402 seconds.
+  path: Assets/Crates00/Prefabs/Prop_Crate01.prefab
+  artifactKey: Guid(87a7388e3c2f53b47a0a13a242e4fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crates00/Prefabs/Prop_Crate01.prefab using Guid(87a7388e3c2f53b47a0a13a242e4fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcf3a571bc51a59f879ced88126778b') in 0.114076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.052804 seconds.
+  path: Assets/Crates00/Meshes/Prop_Crate01.FBX
+  artifactKey: Guid(b21864807edabcb488ab41611db91c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crates00/Meshes/Prop_Crate01.FBX using Guid(b21864807edabcb488ab41611db91c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93276e6b6f4375c5acf8c35307f9f1e') in 0.102322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.271042 seconds.
+  path: Assets/Barrels/Prefabs/Barrel1.prefab
+  artifactKey: Guid(32a764c65c222ef41bbabe0d40bc4fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrels/Prefabs/Barrel1.prefab using Guid(32a764c65c222ef41bbabe0d40bc4fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9591a616ed9745f51cd9e4d225022b') in 0.173565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.341202 seconds.
+  path: Assets/Barrels/Materials/Barrel2.mat
+  artifactKey: Guid(6087c834a71b243459ffdaa78211c7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrels/Materials/Barrel2.mat using Guid(6087c834a71b243459ffdaa78211c7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f6e9fdab863532edecc09199f6dd31') in 0.023358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.123063 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Ornaments/chandelier_01.FBX
+  artifactKey: Guid(52ef270275f8bd34195d267b25770be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Ornaments/chandelier_01.FBX using Guid(52ef270275f8bd34195d267b25770be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de19a9be0553cb95ed00e44f1834c071') in 0.020387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.335274 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Furniture/lamp_01.FBX
+  artifactKey: Guid(d56361d366b1eb24888dc241f8ace923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Furniture/lamp_01.FBX using Guid(d56361d366b1eb24888dc241f8ace923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8b26bae94fa6ef4276914a03db0db1') in 0.024124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Furniture/stool_02.FBX
+  artifactKey: Guid(8d1408a3266ed8149bc6225e5cfa98ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Furniture/stool_02.FBX using Guid(8d1408a3266ed8149bc6225e5cfa98ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8274a149de4b4534e211e0be4b9a5e4d') in 0.020579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Furniture/table_01.fbx
+  artifactKey: Guid(dac93943bb9decd49b148b1e25a13ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Furniture/table_01.fbx using Guid(dac93943bb9decd49b148b1e25a13ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8495389fe3f84237365bd882afb6d3') in 0.059298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Furniture/stool_01.FBX
+  artifactKey: Guid(8cd11fbc8ddb16b44ad0d388e6d646f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Furniture/stool_01.FBX using Guid(8cd11fbc8ddb16b44ad0d388e6d646f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195e78a8c283902aca09c939472a79ad') in 0.094416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.194395 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Tableware/jug_01.FBX
+  artifactKey: Guid(0af38530069ec2740a00fbf48041c7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Tableware/jug_01.FBX using Guid(0af38530069ec2740a00fbf48041c7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa99cffb8191865abb5f2b9925db672') in 0.029454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.804488 seconds.
+  path: Assets/MedievalTavernPack/Material/Furniture/Lamp_01.mat
+  artifactKey: Guid(2da8c0062b66700438bd2abb131fc28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Furniture/Lamp_01.mat using Guid(2da8c0062b66700438bd2abb131fc28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f1445615c3ff3a86ac078001fa2f6b') in 0.050129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MedievalTavernPack/Material/Furniture/Table_01.mat
+  artifactKey: Guid(50a1abf55d731b84699250226ff25ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Furniture/Table_01.mat using Guid(50a1abf55d731b84699250226ff25ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb410d9fc41dc1c5fa4a450b44afb51') in 0.021303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.918938 seconds.
+  path: Assets/Crates00/Textures/Prop_Crate00_diff.tga
+  artifactKey: Guid(ef99897d3bb3f6c498bdfe0317d2a99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crates00/Textures/Prop_Crate00_diff.tga using Guid(ef99897d3bb3f6c498bdfe0317d2a99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea3ce6f36ff946277b3f0b11f2686ca') in 0.108651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Crates00/Textures/Prop_Crate01_norm.tga
+  artifactKey: Guid(0a939e6d42b5a5f4e93634d625e432b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crates00/Textures/Prop_Crate01_norm.tga using Guid(0a939e6d42b5a5f4e93634d625e432b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251278365902518874a02cb5adbf5b18') in 0.022999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 289.869448 seconds.
+  path: Assets/Dinning set/Materials
+  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22697197e1b26f0cedd0ba13d55cf5e3') in 0.007887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.348930 seconds.
+  path: Assets/Dinning set/Materials/Chair_Soft.mat
+  artifactKey: Guid(6787f5cfb2637984ab3dfd89bbf29cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Materials/Chair_Soft.mat using Guid(6787f5cfb2637984ab3dfd89bbf29cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a93a74fd71a957d75e0379c248938e6') in 0.233242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Dinning set/Materials/ReflectionProbe.exr
+  artifactKey: Guid(a7efdd9f227f7be43b6d90cc5a1063b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Materials/ReflectionProbe.exr using Guid(a7efdd9f227f7be43b6d90cc5a1063b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d554a56ac0953b15c93d75acdfc0eb') in 0.083460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Dinning set/Materials/Mug.mat
+  artifactKey: Guid(93787bfcd3302df448fd2dcb2a84ffa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Materials/Mug.mat using Guid(93787bfcd3302df448fd2dcb2a84ffa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39e29aa2df2c7ded46673b0ae7633dd') in 0.127296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dinning set/Materials/Walls.mat
+  artifactKey: Guid(710073325d93f4b4b9f42dc37ba545ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Materials/Walls.mat using Guid(710073325d93f4b4b9f42dc37ba545ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f853993f27a54c953efc5c8190bfb923') in 0.072145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dinning set/Materials/Wood_Floor.mat
+  artifactKey: Guid(a62aac22c2b9d5d4790b7db1f534c24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Materials/Wood_Floor.mat using Guid(a62aac22c2b9d5d4790b7db1f534c24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf707188dbbb00ea87067a7058f9971') in 0.101039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.624580 seconds.
+  path: Assets/Dinning set/Models/Big_Plate.fbx
+  artifactKey: Guid(0a18fe04fa6a491418cd0689914628d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Models/Big_Plate.fbx using Guid(0a18fe04fa6a491418cd0689914628d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ad2598be6add52f136ecefd37a8279') in 0.042931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Dinning set/Models/Fork&Knife.fbx
+  artifactKey: Guid(aad82a488d0bd0c4c9c6860340d77789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Models/Fork&Knife.fbx using Guid(aad82a488d0bd0c4c9c6860340d77789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71633ea6ec70b6219e51abbea577f210') in 0.190355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.134599 seconds.
+  path: Assets/Dinning set/Prefabs/Big Plate.prefab
+  artifactKey: Guid(4591248b9dad9704b9eb3685fb7f30de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Prefabs/Big Plate.prefab using Guid(4591248b9dad9704b9eb3685fb7f30de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7ee8201f9c86be90b4bf5c16551a88') in 0.105416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Dinning set/Prefabs/Walls.prefab
+  artifactKey: Guid(da4e68fa2282f4149942e1dae46d20e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Prefabs/Walls.prefab using Guid(da4e68fa2282f4149942e1dae46d20e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778012dceeb70054e7ef1d78f96b9b8f') in 0.081132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Dinning set/Prefabs/Fork.prefab
+  artifactKey: Guid(96ee7e46e62cb444eab309f187aaaf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Prefabs/Fork.prefab using Guid(96ee7e46e62cb444eab309f187aaaf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e07f6f3fee570b9ced05c4a9495aed4') in 0.080762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dinning set/Prefabs/Mug.prefab
+  artifactKey: Guid(317a033dec0d59f4f81b1a7063210dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Prefabs/Mug.prefab using Guid(317a033dec0d59f4f81b1a7063210dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ab8ebd44ad05e750ae657aa9aeb321') in 0.072936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dinning set/Prefabs/Regular Chair.prefab
+  artifactKey: Guid(89332c33c06293b429a383f9e1383d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Prefabs/Regular Chair.prefab using Guid(89332c33c06293b429a383f9e1383d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad73cdba066fe7b1bcc212a1cdb9d546') in 0.096846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.095669 seconds.
+  path: Assets/3D Low-Poly Tables/Materials
+  artifactKey: Guid(d674b22517feb1745b0ad73e90254d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Low-Poly Tables/Materials using Guid(d674b22517feb1745b0ad73e90254d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3040a73104c0f536392bfbd13ffafbc') in 0.002154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.298098 seconds.
+  path: Assets/3D Low-Poly Tables/Prefabs
+  artifactKey: Guid(4088ea03e7a192e45aa9bde2e90feb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Low-Poly Tables/Prefabs using Guid(4088ea03e7a192e45aa9bde2e90feb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbe50306186cae17c6a55f864b48640') in 0.007529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173498 seconds.
+  path: Assets/3D Low-Poly Tables/Prefabs/Table 1 Obj.prefab
+  artifactKey: Guid(43790b14bbe91204e99415a5db21a713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Low-Poly Tables/Prefabs/Table 1 Obj.prefab using Guid(43790b14bbe91204e99415a5db21a713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2488387008d0b5497a5b58de637cbbbd') in 0.093598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/3D Low-Poly Tables/Prefabs/Table 3.prefab
+  artifactKey: Guid(192a79fde5afd7640b6884a45bdc28f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Low-Poly Tables/Prefabs/Table 3.prefab using Guid(192a79fde5afd7640b6884a45bdc28f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2d2dc081d32f8753efc60f0d72c35c') in 0.041692 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

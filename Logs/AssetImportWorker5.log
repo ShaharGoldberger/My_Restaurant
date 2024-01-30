@@ -1,0 +1,295 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Unity\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Unity/Projects/Restaurant
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+62174
+Successfully changed project path to: C:/Unity/Projects/Restaurant
+C:/Unity/Projects/Restaurant
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2816] Host "[IP] 192.168.88.1 [Port] 0 [Flags] 2 [Guid] 2858545690 [EditorId] 2858545690 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-UBFHFKGD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2816] Host "[IP] 192.168.88.1 [Port] 0 [Flags] 2 [Guid] 2858545690 [EditorId] 2858545690 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-UBFHFKGD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 64.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Unity/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/Projects/Restaurant/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2799
+Initialize mono
+Mono path[0] = 'C:/Unity/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006666 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 235 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 61.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.816 seconds
+Domain Reload Profiling:
+	ReloadAssembly (816ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (650ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (89ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (486ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (305ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005596 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity\Projects\Restaurant\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity\Projects\Restaurant\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.845 seconds
+Domain Reload Profiling:
+	ReloadAssembly (846ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (650ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.3 KB). Loaded Objects now: 3521.
+Memory consumption went from 109.8 MB to 109.6 MB.
+Total: 2.909800 ms (FindLiveObjects: 0.239900 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.453400 ms  DeleteObjects: 0.134200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 680036.853216 seconds.
+  path: Assets/MedievalTavernPack/Meshes/Tableware/plate_01.FBX
+  artifactKey: Guid(77dd54bd10946ac48800c3e4287f8be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Meshes/Tableware/plate_01.FBX using Guid(77dd54bd10946ac48800c3e4287f8be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20bf33e24efd564ba7345b5aab2deb9') in 0.290674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.543617 seconds.
+  path: Assets/MedievalTavernPack/Material/Furniture/Stool_01.mat
+  artifactKey: Guid(f2ceb2e55e41c40498c40e0e99e98a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Material/Furniture/Stool_01.mat using Guid(f2ceb2e55e41c40498c40e0e99e98a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc356f237ab883aa95d4fffa332512c2') in 0.078004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.918795 seconds.
+  path: Assets/Crates00/Textures/Prop_Crate00_norm.tga
+  artifactKey: Guid(2be12e51b03f9a54097cb28030bc40e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crates00/Textures/Prop_Crate00_norm.tga using Guid(2be12e51b03f9a54097cb28030bc40e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd9e4599965ed608a3eb468b05aac9f') in 0.115158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Crates00/Textures/Prop_Crate01_diff.tga
+  artifactKey: Guid(ccf31af4bc5802f47b2ff37678af30f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crates00/Textures/Prop_Crate01_diff.tga using Guid(ccf31af4bc5802f47b2ff37678af30f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f56098658fcece95811c677024b6b12') in 0.016697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 290.231109 seconds.
+  path: Assets/Dinning set/Materials/Light.mat
+  artifactKey: Guid(fedf6cd18d5b53c4f952bd3059462a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Materials/Light.mat using Guid(fedf6cd18d5b53c4f952bd3059462a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fa6bf2b6f775688c1066bd98f1ccce') in 0.097542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dinning set/Materials/Plate.mat
+  artifactKey: Guid(f80ef161051c9824ab058232975f2076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Materials/Plate.mat using Guid(f80ef161051c9824ab058232975f2076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3892a4ca02fc7533c1173d0a7decfe0') in 0.078840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dinning set/Materials/Wood_Table.mat
+  artifactKey: Guid(bbccc2cc56940c445bed523dadacaeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Materials/Wood_Table.mat using Guid(bbccc2cc56940c445bed523dadacaeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b735052dd616bbef3ebd0100e1335ca') in 0.129179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Dinning set/Materials/Wood_Chair.mat
+  artifactKey: Guid(0c3017c0d5f4768488dbf857b7ce42c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Materials/Wood_Chair.mat using Guid(0c3017c0d5f4768488dbf857b7ce42c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c904227a042d599e6e54cbcecb33f2e6') in 0.135391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Dinning set/Materials/light_2.mat
+  artifactKey: Guid(43acd5f6b27e6da4a8c53c561d60a4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Materials/light_2.mat using Guid(43acd5f6b27e6da4a8c53c561d60a4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1859c45faa7f4459802f966341f98968') in 0.038273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Dinning set/Materials/Utensils.mat
+  artifactKey: Guid(7dfaa0b6bc4735d4aa57f36a7685efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Materials/Utensils.mat using Guid(7dfaa0b6bc4735d4aa57f36a7685efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8285b362ef65c533e51b6d3bc7432630') in 0.124182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.630977 seconds.
+  path: Assets/Dinning set/Models/Dinner_Table.fbx
+  artifactKey: Guid(1ec7b66e68c7d8b47bf089a5f4c36b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Models/Dinner_Table.fbx using Guid(1ec7b66e68c7d8b47bf089a5f4c36b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6837749336965b2a051ecb43c82dfc83') in 0.026569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dinning set/Models/Regular_Chair.fbx
+  artifactKey: Guid(a114f1e2a14ce904998ca2491a1fd9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Models/Regular_Chair.fbx using Guid(a114f1e2a14ce904998ca2491a1fd9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba32aae7bdcb1f1e4f73116a84e1878') in 0.205896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Dinning set/Models/Mug.fbx
+  artifactKey: Guid(3379f659490c073409673e890d4eade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Models/Mug.fbx using Guid(3379f659490c073409673e890d4eade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac858777596520baea38852290fb1b2c') in 0.028500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101937 seconds.
+  path: Assets/Dinning set/Prefabs/Butter Knife .prefab
+  artifactKey: Guid(710fcdeadff4f1243b823959ed6c90ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Prefabs/Butter Knife .prefab using Guid(710fcdeadff4f1243b823959ed6c90ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e204776ffa79550561a3e906334d30') in 0.108298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Dinning set/Prefabs/Fork&Knife.prefab
+  artifactKey: Guid(b5f601ee5eba1f6459fbde186c205cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Prefabs/Fork&Knife.prefab using Guid(b5f601ee5eba1f6459fbde186c205cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5382e3d8d2268ca8e47171fb11571cee') in 0.067956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Dinning set/Prefabs/Soft Chair.prefab
+  artifactKey: Guid(e92f236a79af052448e39adec40a713d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Prefabs/Soft Chair.prefab using Guid(e92f236a79af052448e39adec40a713d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aef438a21e3d9f1e9404d909b8b19fd') in 0.106468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Dinning set/Prefabs/Dinner Table.prefab
+  artifactKey: Guid(2462142bcda5dad45975add9996018e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Prefabs/Dinner Table.prefab using Guid(2462142bcda5dad45975add9996018e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e6727b3995c8a5983ca00c2ec27873') in 0.068785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dinning set/Prefabs/Floor.prefab
+  artifactKey: Guid(0c2921cecc1ba0f49b7ade731d3b51de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dinning set/Prefabs/Floor.prefab using Guid(0c2921cecc1ba0f49b7ade731d3b51de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fec15dd68053488e6e997114b3d2350') in 0.078691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.597752 seconds.
+  path: Assets/3D Low-Poly Tables/Prefabs/Table 2 Obj.prefab
+  artifactKey: Guid(1f2a61912d14f4c40ab1041682bd23cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Low-Poly Tables/Prefabs/Table 2 Obj.prefab using Guid(1f2a61912d14f4c40ab1041682bd23cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d001957af9be36ea7ecd52c30d358c') in 0.093253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/3D Low-Poly Tables/Prefabs/Table 3 Obj.prefab
+  artifactKey: Guid(35f03eadcda65a741af75d0fe9f7bb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Low-Poly Tables/Prefabs/Table 3 Obj.prefab using Guid(35f03eadcda65a741af75d0fe9f7bb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5e2bba8d9252326b07ec77bb2162eb') in 0.043435 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

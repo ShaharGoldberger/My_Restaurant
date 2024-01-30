@@ -1,0 +1,277 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Unity\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Unity/Projects/Restaurant
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+62174
+Successfully changed project path to: C:/Unity/Projects/Restaurant
+C:/Unity/Projects/Restaurant
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19324] Host "[IP] 192.168.88.1 [Port] 0 [Flags] 2 [Guid] 803768160 [EditorId] 803768160 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-UBFHFKGD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19324] Host "[IP] 192.168.88.1 [Port] 0 [Flags] 2 [Guid] 803768160 [EditorId] 803768160 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-UBFHFKGD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 63.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Unity/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/Projects/Restaurant/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2799
+Initialize mono
+Mono path[0] = 'C:/Unity/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006757 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 243 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 61.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (806ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (646ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (86ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (491ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (314ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005189 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity\Projects\Restaurant\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity\Projects\Restaurant\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (861ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (664ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.5 KB). Loaded Objects now: 3524.
+Memory consumption went from 110.6 MB to 110.5 MB.
+Total: 2.689600 ms (FindLiveObjects: 0.255900 ms CreateObjectMapping: 0.095600 ms MarkObjects: 2.220900 ms  DeleteObjects: 0.116600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 684734.728885 seconds.
+  path: Assets/MedievalTavernPack/Textures/Ornaments
+  artifactKey: Guid(f09e0009bf641ec498c9f5b8fa269f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTavernPack/Textures/Ornaments using Guid(f09e0009bf641ec498c9f5b8fa269f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cccc68eb46e556ab7df0b625710b44') in 0.014601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.678071 seconds.
+  path: Assets/polygonTrees/polygonTrees/models
+  artifactKey: Guid(5005d1c7503002247814431f5ddc87af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models using Guid(5005d1c7503002247814431f5ddc87af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd73bf6786f29346cc749e944418905') in 0.008456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.859153 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods
+  artifactKey: Guid(0b70af6922a3062488dac3022a825d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods using Guid(0b70af6922a3062488dac3022a825d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239f2dad0055a58ab594363af4f6bc6a') in 0.008243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.587221 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees
+  artifactKey: Guid(29a29391dc0e45d4e8ee25614a36439e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees using Guid(29a29391dc0e45d4e8ee25614a36439e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766764c8a11109b9ce0789203c270815') in 0.002397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.722360 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL
+  artifactKey: Guid(a8037a60fcc613f4a92cca7d2020de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL using Guid(a8037a60fcc613f4a92cca7d2020de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c41229e082de78f2522dfb25bb79470') in 0.002765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100088 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL/fallenBranchesTreeL.fbx
+  artifactKey: Guid(2aa9288d4eb0c3632b8de02d3af2450c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/modelsWithLods/trees/fallenBranchesTreeL/fallenBranchesTreeL.fbx using Guid(2aa9288d4eb0c3632b8de02d3af2450c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c82926399aa2960453bfb09d1b6571') in 0.177505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.608479 seconds.
+  path: Assets/Ornamental Flower Set/Resources
+  artifactKey: Guid(490058ef0bb4b84448e0e56d096f438c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ornamental Flower Set/Resources using Guid(490058ef0bb4b84448e0e56d096f438c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63524d45cc6bd82e550b0456d7270443') in 0.008055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.594550 seconds.
+  path: Assets/Ornamental Flower Set/Resources/Furniture01
+  artifactKey: Guid(659baf5fd0c726c41bc25605ecbeeb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ornamental Flower Set/Resources/Furniture01 using Guid(659baf5fd0c726c41bc25605ecbeeb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e5422b2cf511f84cb20defa152f4a9') in 0.008042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071546 seconds.
+  path: Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_flowerstand_01_LOD0.fbx
+  artifactKey: Guid(685a396eeb131804a9360ce741da1163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_flowerstand_01_LOD0.fbx using Guid(685a396eeb131804a9360ce741da1163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b1b49c842c9e6bdb0152d37fe27984') in 0.129011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_08_LOD1.fbx
+  artifactKey: Guid(93964bda8aa8bb6408252ae9ac6bb4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_08_LOD1.fbx using Guid(93964bda8aa8bb6408252ae9ac6bb4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215aa6642820da1ca82a9be48bbd927a') in 0.140073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_10_LOD1.fbx
+  artifactKey: Guid(73dd848a200c26743952d5bd70c58b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_10_LOD1.fbx using Guid(73dd848a200c26743952d5bd70c58b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689a79025c738c317c5f502550c2bccc') in 0.026410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_10_LOD0.fbx
+  artifactKey: Guid(271c8dffd0b3d2a40a6da8c5b06f0394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_10_LOD0.fbx using Guid(271c8dffd0b3d2a40a6da8c5b06f0394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385ccd7757b230c757e9f56b649e9daa') in 0.029930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_08_LOD0.fbx
+  artifactKey: Guid(0353d7430d945be47b7deb8a9a193983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_08_LOD0.fbx using Guid(0353d7430d945be47b7deb8a9a193983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a01adeb74682fbf16a1dbeb9727da2') in 0.030341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_flowerstand_02_LOD1.fbx
+  artifactKey: Guid(6c7cf8ce2959b22458cd55adabef16a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_flowerstand_02_LOD1.fbx using Guid(6c7cf8ce2959b22458cd55adabef16a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2768ef55e8ee7e2108c6f5ae0a47b72c') in 0.040077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_12_LOD1.fbx
+  artifactKey: Guid(3504707bf4025bb4ea44aeb54218bb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_12_LOD1.fbx using Guid(3504707bf4025bb4ea44aeb54218bb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1da5ce904fae7a36f65188409dd707c') in 0.043376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_09_LOD1.fbx
+  artifactKey: Guid(98e2bcc51e457ea419e8e1e9d06155f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_09_LOD1.fbx using Guid(98e2bcc51e457ea419e8e1e9d06155f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b423a8b6933c8ece838957489793d0') in 0.031069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_12_LOD0.fbx
+  artifactKey: Guid(ef275eb8eb9669949ad0f4a31466e4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ornamental Flower Set/Resources/Furniture01/Furniture_foliageplant_12_LOD0.fbx using Guid(ef275eb8eb9669949ad0f4a31466e4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdf9114b9c43c5114ef6b5f1399aa79') in 0.031485 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
