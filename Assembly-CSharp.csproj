@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{89DEABB4-D31F-B226-F6D6-F4731EEA16B5}</ProjectGuid>
+    <ProjectGuid>{6C860A17-E2C2-FBE9-5186-9A4D6B5985C7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
     <Compile Include="Assets\CorcraProps_Furniture_Lite\Scenes\Scripts\CameraOrbit.cs" />
+    <Compile Include="Assets\Scripts\DoorMotion.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -8,10 +8,13 @@ public class PlayerBehaviour : MonoBehaviour
     float speed = 6;
     float angularSpeed = 90;
     public GameObject aCamera; // must be connected to some object in Unity
+    AudioSource footStepSound;
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>(); // connect controller to component in Unity
+        footStepSound = GetComponent<AudioSource>(); // connect controller to component in Unity
+
     }
 
     // Update is called once per frame
@@ -20,13 +23,13 @@ public class PlayerBehaviour : MonoBehaviour
         float rotation_about_Y;
         float rotation_about_X;
 
-        rotation_about_Y = Input.GetAxis("Mouse X")* angularSpeed * Time.deltaTime;
+        rotation_about_Y = Input.GetAxis("Mouse X") * angularSpeed * Time.deltaTime;
         transform.Rotate(new Vector3(0, rotation_about_Y, 0));
         rotation_about_X = Input.GetAxis("Mouse Y") * angularSpeed * Time.deltaTime;
-        aCamera.transform.Rotate(new Vector3(-rotation_about_X,0,0));
+        aCamera.transform.Rotate(new Vector3(-rotation_about_X, 0, 0));
 
 
-        float dx = speed*Time.deltaTime, dz= speed* Time.deltaTime;
+        float dx = speed * Time.deltaTime, dz = speed * Time.deltaTime;
         // basic (primitive) motion
         //transform.Translate(new Vector3(0,0, 0.05f));
 
@@ -36,5 +39,11 @@ public class PlayerBehaviour : MonoBehaviour
         Vector3 motion = new Vector3(dx, -0.5f, dz); // in LOCAL coordinates
         motion = transform.TransformDirection(motion); // transforms coordinates to GLOBAL
         controller.Move(motion); // in GLOBAL coordinates
+
+        if(dx != 0 || dz != 0) // play sound if the player is moving and if the sound is not played
+        {
+            if(!footStepSound.isPlaying)
+                footStepSound.Play();
+        }
     }
 }

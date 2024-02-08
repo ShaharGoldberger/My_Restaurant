@@ -23,27 +23,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7538014346632490162}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 41.89, y: 2.91, z: 9.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2551952063046459555}
-  - {fileID: 6987419954581737424}
   - {fileID: 3962417579968495335}
-  - {fileID: 6331350766482905590}
-  - {fileID: 6097943729253965269}
   - {fileID: 5036214356974443396}
+  - {fileID: 2551952063046459555}
+  - {fileID: 6097943729253965269}
+  - {fileID: 6331350766482905590}
+  - {fileID: 6987419954581737424}
   - {fileID: 3383182540126942500}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &242706101669191563
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 3
     m_TransformParent: {fileID: 2899610183924138969}
     m_Modifications:
     - target: {fileID: 552258401113087409, guid: 0eaf6a764848cba46b2d12c9d70bb534, type: 3}
@@ -91,9 +90,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0eaf6a764848cba46b2d12c9d70bb534, type: 3}
 --- !u!4 &3962417579968495335 stripped
 Transform:
@@ -105,12 +101,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 3
     m_TransformParent: {fileID: 2899610183924138969}
     m_Modifications:
     - target: {fileID: 3975537612753028107, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
       propertyPath: m_Name
       value: Torch (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5332075929850393651, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5332075929850393651, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
       propertyPath: m_LocalScale.x
@@ -165,9 +164,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
 --- !u!4 &5036214356974443396 stripped
 Transform:
@@ -179,9 +175,12 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 3
     m_TransformParent: {fileID: 2899610183924138969}
     m_Modifications:
+    - target: {fileID: 4077428520546973818, guid: 241ad2cf04b97fd4d9bd67d10c3f2c2b, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4077428520546973818, guid: 241ad2cf04b97fd4d9bd67d10c3f2c2b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.0099983
@@ -227,9 +226,6 @@ PrefabInstance:
       value: WallWithWindow
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 241ad2cf04b97fd4d9bd67d10c3f2c2b, type: 3}
 --- !u!4 &2551952063046459555 stripped
 Transform:
@@ -241,12 +237,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 3
     m_TransformParent: {fileID: 2899610183924138969}
     m_Modifications:
     - target: {fileID: 3975537612753028107, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
       propertyPath: m_Name
       value: Torch (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5332075929850393651, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5332075929850393651, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
       propertyPath: m_LocalScale.x
@@ -301,9 +300,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
 --- !u!4 &6097943729253965269 stripped
 Transform:
@@ -315,12 +311,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 3
     m_TransformParent: {fileID: 2899610183924138969}
     m_Modifications:
     - target: {fileID: 3975537612753028107, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
       propertyPath: m_Name
       value: Torch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5332075929850393651, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5332075929850393651, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
       propertyPath: m_LocalScale.x
@@ -375,9 +374,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
 --- !u!4 &6331350766482905590 stripped
 Transform:
@@ -389,9 +385,12 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 3
     m_TransformParent: {fileID: 2899610183924138969}
     m_Modifications:
+    - target: {fileID: 4077428520546973818, guid: 241ad2cf04b97fd4d9bd67d10c3f2c2b, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4077428520546973818, guid: 241ad2cf04b97fd4d9bd67d10c3f2c2b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -437,9 +436,6 @@ PrefabInstance:
       value: WallWithWindow (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 241ad2cf04b97fd4d9bd67d10c3f2c2b, type: 3}
 --- !u!4 &6987419954581737424 stripped
 Transform:
@@ -451,12 +447,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 3
     m_TransformParent: {fileID: 2899610183924138969}
     m_Modifications:
     - target: {fileID: 3975537612753028107, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
       propertyPath: m_Name
       value: Torch (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5332075929850393651, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5332075929850393651, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
       propertyPath: m_LocalScale.x
@@ -511,9 +510,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2383467e7fd92e04c8c62c6c18110dcf, type: 3}
 --- !u!4 &3383182540126942500 stripped
 Transform:
